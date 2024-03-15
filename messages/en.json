@@ -1,0 +1,13 @@
+{
+    "toggleLang": {
+        "title": "Select language"
+    },
+    "sidebar": {
+        "about": "About",
+        "tech": "Technologies"
+    },
+    "about": {
+        "myname": "Hello, i'm Glauber",
+        "presentation": "I am 21 years old, a Brazilian native from João Pessoa, Paraíba. I hold a degree in Computer Science, which I pursued at UNIPE from 2020 to 2024. With 4 years of experience in programming, one of my strengths is my persistence in achieving my goals. I have always been passionate about technology and am eager to continue learning more."
+    }
+}
