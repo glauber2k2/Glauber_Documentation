@@ -13,6 +13,7 @@ import {
 } from './ui/dropdown-menu'
 import { usePathname as nextPathname } from 'next/navigation'
 import { useTranslations } from 'next-intl'
+import { Button } from './ui/button'
 
 interface ToggleLangProps {}
 
@@ -27,8 +28,14 @@ const ToggleLang: FunctionComponent<ToggleLangProps> = () => {
 
   return (
     <DropdownMenu>
-      <DropdownMenuTrigger className="flex gap-2 items-center tracking-wider text-sm">
-        <LanguagesIcon size={16} /> {langNames[selectedLang]}
+      <DropdownMenuTrigger
+        className="flex gap-2 items-center tracking-wider text-sm"
+        asChild
+      >
+        <Button variant={'outline'}>
+          <LanguagesIcon size={16} />
+          <p className="hidden sm:block">{langNames[selectedLang]}</p>
+        </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent>
         <DropdownMenuLabel>{t('title')}</DropdownMenuLabel>

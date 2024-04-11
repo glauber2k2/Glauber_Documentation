@@ -6,10 +6,10 @@ interface HeaderProps {}
 
 const Header: FunctionComponent<HeaderProps> = () => {
   return (
-    <div className="flex items-center gap-2 bg-zinc-900 px-12 py-4 justify-between">
-      <span className="text-3xl font-semibold flex items-center gap-4 ">
-        <Code2Icon size={42} />
-        DevGlauber
+    <div className="flex items-center p-4 justify-between border-b border-neutral-300 dark:border-neutral-800">
+      <span className="text-xl font-medium flex items-center gap-4 ">
+        <Code2Icon size={32} />
+        <h1 className="hidden sm:block">DevGlauber</h1>
       </span>
       <ToggleLang />
     </div>

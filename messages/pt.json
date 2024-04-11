@@ -3,11 +3,22 @@
         "title": "Selecionar idioma"
     },
     "sidebar": {
-        "about": "Sobre",
+        "about": "Sobre mim",
+        "projects": "Meus projetos",
         "tech": "Tecnologias"
     },
     "about": {
+        "title": "Sobre mim",
         "myname": "Opa, me chamo Glauber.",
-        "presentation": "Tenho 21 anos, sou brasileiro natural de João Pessoa, Paraíba. Possuo formação em Ciência da Computação, concluída na UNIPE de 2020 a 2024. Com 4 anos de experiência em programação, uma das minhas qualidades é minha persistência em alcançar meus objetivos. Sempre fui apaixonado por tecnologia e estou ansioso para continuar aprendendo mais."
+        "presentation": "Tenho 21 anos, sou brasileiro natural de João Pessoa, Paraíba. Possuo formação em Ciência da Computação, concluída na UNIPE de 2020 a 2024. Com 4 anos de experiência em programação, uma das minhas qualidades é minha persistência em alcançar meus objetivos. Sempre fui apaixonado por tecnologia e estou ansioso para continuar aprendendo mais.",
+        "educationTitle": "Formação acadêmica",
+        "educationText": "No segundo semestre de 2020, iniciei o curso de Ciências da Computação na UNIPÊ, que faz parte da Universidade Cruzeiro do Sul, localizada em João Pessoa, Paraíba, Brasil. No ano de 2021, comecei a me interessar muito pela área de programação. No início de 2023, inscrevi-me para participar de estágios na UNIPÊ com desenvolvimento de software, tendo assim a oportunidade de estagiar na Conte Cornetet Arquitetura e Consultoria, onde pude me aprofundar ainda mais no mundo da programação. Um dos meus principais feitos na Conte envolveu o desenvolvimento de um sistema de transcrição de áudio em tempo real para auxiliar nos relatórios e inspeções da empresa. Além disso, desempenhei um papel fundamental e ativo na liderança da criação do frontend do sistema de gestão de plantões do curso de medicina da minha universidade. Logo após, por volta de agosto de 2023, comecei a trabalhar no desenvolvimento do meu TCC que se concentrou na área de Inteligência Artificial, com foco em engenharia de prompt e como tornar essa nova tecnologia mais acessível a todas as pessoas. Sendo assim, trabalhamos e aprimoramos o sistema ROORE, que é uma plataforma de prompts, onde o usuário pode encontrar diversos prompts pré-prontos para auxiliar em suas instruções a todo tipo de inteligência artificial, podendo assim facilitar a vida de muitos profissionais com o uso dessa tecnologia. Com isso, terminei meu curso no segundo semestre do ano de 2024.",
+        "worksTitle": "Experiência profissional",
+        "freelancerText": "Após adquirir conhecimento suficiente na área de programação, também tive a oportunidade de realizar diversos trabalhos freelancers. Alguns deles incluem: uma página para exibir projetos de arquitetura para a empresa Trinity, uma página de apresentação e inscrição de novos membros para um clube de tiro em minha cidade, e trabalho de front-end para um sistema de gestão empresarial. Além disso, participei ativamente do desenvolvimento de uma plataforma para gerenciamento de empresas e ativos, onde trabalhei full-stack utilizando tecnologias como ReactJS, NodeJS, NextJS, Express, TypeORM e um banco de dados PostgreSQL. Isso me permitiu expandir minhas habilidades em um ambiente full-stack, possibilitando o desenvolvimento tanto dos aspectos visuais quanto de toda a lógica de negócios e gerenciamento de dados do sistema.",
+        "btorText": "Em setembro de 2023, ingressei na empresa Btor Solucoes Computacionais como desenvolvedor front-end. Comecei como estagiário e fui promovido a desenvolvedor júnior posteriormente. Na Btor, tive a oportunidade de trabalhar com tecnologias que eu não conhecia previamente, o que me permitiu expandir meu conhecimento em programação de forma geral. Trabalhei com Flutter, Angular e React, e também adquiri um pouco de conhecimento sobre C#. Encerrei minha contribuição na empresa em março de 2024.",
+        "timeAlign": "Em Janeiro de 2024, comecei a desenvolver um sistema SAAS para gestão de agendamentos, chamado TimeAlign. Neste sistema, as empresas podem se cadastrar, adicionar suas unidades e funcionários, e receber agendamentos de potenciais clientes que utilizam a plataforma. Neste projeto, assumi a responsabilidade por todo o frontend, backend e banco de dados da aplicação. Utilizei diversas tecnologias de mercado, como ReactJs, Nodejs, Express, Typeorm, Stripe e PostgreSQL. O sistema, atualmente em abril de 2024, encontra-se em sua versão demo, com previsão de lançamento para janeiro de 2025."
+    },
+    "techs": {
+        "title": "Minhas tecnologias"
     }
 }

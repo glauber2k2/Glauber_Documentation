@@ -1,35 +1,33 @@
 'use client'
 
 import { cn } from '@/lib/utils'
-import { ElementType, FunctionComponent } from 'react'
-import { Link, usePathname } from '../../navigation'
+import { ButtonHTMLAttributes, FunctionComponent, ReactNode } from 'react'
+import { Button } from './ui/button'
+import { usePathname } from 'next/navigation'
+import { Link } from '../../navigation'
 
-interface ActiveLinkProps {
-  name: string
+interface ActiveLinkProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   href: string
-  icon: ElementType
+  children: ReactNode
 }
 
-const ActiveLink: FunctionComponent<ActiveLinkProps> = ({
-  name,
-  href,
-  icon: Icon,
-}) => {
+const ActiveLink: FunctionComponent<ActiveLinkProps> = ({ children, href }) => {
   const pathname = usePathname()
   const isActive = pathname === href.toString()
 
   console.log(pathname)
 
   return (
-    <Link
-      href={href}
-      className={cn(
-        isActive ? 'bg-violet-600' : '',
-        'flex items-center gap-2 px-4 py-2 rounded-md font-medium',
-      )}
-    >
-      <Icon size={16} />
-      {name}
+    <Link href={href} className="">
+      <Button
+        variant={'ghost'}
+        className={cn(
+          isActive ? 'bg-white/5' : '',
+          'flex items-center gap-2 px-4 py-2 rounded-md font-medium text-sm w-full justify-start',
+        )}
+      >
+        {children}
+      </Button>
     </Link>
   )
 }
