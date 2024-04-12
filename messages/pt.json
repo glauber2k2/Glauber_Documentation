@@ -2,6 +2,11 @@
     "toggleLang": {
         "title": "Selecionar idioma"
     },
+    "home": {
+        "title": "Opa, me chamo Glauber.",
+        "subtitle": "Bem-vindo à documentação da minha carreira.",
+        "cta": "Vamos iniciar"
+    },
     "sidebar": {
         "about": "Sobre mim",
         "projects": "Meus projetos",

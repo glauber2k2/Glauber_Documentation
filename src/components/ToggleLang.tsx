@@ -2,7 +2,7 @@
 
 import { FunctionComponent } from 'react'
 import { Link, usePathname } from '../../navigation'
-import { LanguagesIcon } from 'lucide-react'
+import { LuLanguages } from 'react-icons/lu'
 import {
   DropdownMenu,
   DropdownMenuContent,
@@ -33,7 +33,7 @@ const ToggleLang: FunctionComponent<ToggleLangProps> = () => {
         asChild
       >
         <Button variant={'outline'}>
-          <LanguagesIcon size={16} />
+          <LuLanguages size={16} />
           <p className="hidden sm:block">{langNames[selectedLang]}</p>
         </Button>
       </DropdownMenuTrigger>
@@ -46,7 +46,7 @@ const ToggleLang: FunctionComponent<ToggleLangProps> = () => {
             locale="en"
             className=" flex gap-2 items-center tracking-wider"
           >
-            <LanguagesIcon size={16} />
+            <LuLanguages size={16} />
             English
           </Link>
         </DropdownMenuItem>
@@ -56,7 +56,7 @@ const ToggleLang: FunctionComponent<ToggleLangProps> = () => {
             locale="pt"
             className=" flex gap-2 items-center tracking-wider"
           >
-            <LanguagesIcon size={16} />
+            <LuLanguages size={16} />
             Português
           </Link>
         </DropdownMenuItem>

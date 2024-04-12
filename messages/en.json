@@ -2,6 +2,11 @@
     "toggleLang": {
         "title": "Select language"
     },
+    "home": {
+        "title": "Hello, i'm Glauber",
+        "subtitle": "Welcome to the documentation of my career.",
+        "cta": "Get started"
+    },
     "sidebar": {
         "about": "About me",
         "projects": "My projects",

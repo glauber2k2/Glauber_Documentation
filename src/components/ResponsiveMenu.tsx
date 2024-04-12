@@ -1,5 +1,5 @@
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
-import { Menu } from 'lucide-react'
+import { LuMenu } from 'react-icons/lu'
 import React, { FunctionComponent, ReactNode } from 'react'
 
 interface ResponsiveMenuProps {
@@ -12,7 +12,7 @@ const ResponsiveMenu: FunctionComponent<ResponsiveMenuProps> = ({
   return (
     <Sheet>
       <SheetTrigger className="m-6 w-fit">
-        <Menu />
+        <LuMenu />
       </SheetTrigger>
       <SheetContent side={'left'}>{children}</SheetContent>
     </Sheet>
