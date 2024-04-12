@@ -11,8 +11,8 @@ const inter = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: 'Glauber Monteiro',
-  description: '@devglauber',
+  title: 'Glauber Documentation',
+  description: 'documentation of my career.',
 }
 
 export default function RootLayout({
