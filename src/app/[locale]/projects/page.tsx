@@ -11,7 +11,7 @@ export default function page() {
         {projects('title')}
       </h1>
       <GetRepositories />
-      <article className="text-xs border border-neutral-300 dark:border-neutral-800 p-4 rounded-md">
+      <article className="text-xs border border-neutral-300 dark:border-neutral-800 p-4 rounded-md text-justify">
         {projects('note')}
       </article>
     </div>

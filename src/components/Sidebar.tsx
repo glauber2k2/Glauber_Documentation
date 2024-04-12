@@ -1,7 +1,7 @@
 import { FunctionComponent } from 'react'
 import { useTranslations } from 'next-intl'
 import ActiveLink from './ActiveLink'
-import { Cpu, Presentation, User2 } from 'lucide-react'
+import { Cpu, MessageCircleIcon, Presentation, User2 } from 'lucide-react'
 
 interface SidebarProps {}
 
@@ -21,6 +21,11 @@ const Sidebar: FunctionComponent<SidebarProps> = () => {
       <ActiveLink href="/projects">
         <Presentation size={16} />
         {t('projects')}
+      </ActiveLink>
+      <span className="border-b border-neutral-300 dark:border-neutral-800 mt-auto mb-2" />
+      <ActiveLink href="/contact">
+        <MessageCircleIcon size={16} />
+        {t('contact')}
       </ActiveLink>
     </div>
   )

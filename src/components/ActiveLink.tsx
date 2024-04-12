@@ -3,8 +3,7 @@
 import { cn } from '@/lib/utils'
 import { ButtonHTMLAttributes, FunctionComponent, ReactNode } from 'react'
 import { Button } from './ui/button'
-import { usePathname } from 'next/navigation'
-import { Link } from '../../navigation'
+import { Link, usePathname } from '../../navigation'
 
 interface ActiveLinkProps extends ButtonHTMLAttributes<HTMLButtonElement> {
   href: string

@@ -8,23 +8,34 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel'
 
-export default async function GetRepositories() {
-  // const data = await fetch('https://api.github.com/users/glauber2k2/repos')
-  // const repositories = await data.json()
+import { FaCss3, FaJs, FaNodeJs, FaReact } from 'react-icons/fa'
+import {
+  SiDjango,
+  SiNextdotjs,
+  SiPython,
+  SiTailwindcss,
+  SiTypescript,
+} from 'react-icons/si'
 
-  const repositories = [
-    { id: '1', name: 'teste', description: '*' },
-    { id: '2', name: 'teste', description: '*' },
-    { id: '3', name: 'teste', description: '*' },
-    { id: '5', name: 'teste', description: '*' },
-    { id: '6', name: 'teste', description: '*' },
-    {
-      id: '4',
-      name: 'teste',
-      description:
-        '*testando testando testandotestandotestando testandotestando testando',
-    },
-  ]
+export default async function GetRepositories() {
+  interface IconTech {
+    [key: string]: JSX.Element
+  }
+
+  const iconTech: IconTech = {
+    css: <FaCss3 />,
+    next: <SiNextdotjs />,
+    react: <FaReact />,
+    javascript: <FaJs />,
+    typescript: <SiTypescript />,
+    tailwind: <SiTailwindcss />,
+    node: <FaNodeJs />,
+    python: <SiPython />,
+    django: <SiDjango />,
+  }
+
+  const data = await fetch('https://api.github.com/users/glauber2k2/repos')
+  const repositories = await data.json()
 
   const visibleRepositories = repositories.filter((repo: any) => {
     if (repo.description) {
@@ -48,17 +59,21 @@ export default async function GetRepositories() {
               key={repo.id}
               className="md:basis-1/2 lg:basis-1/3 overflow-hidden"
             >
-              <div className=" border border-neutral-300 dark:border-neutral-800 rounded-lg p-4 grid grid-rows-[3fr_1fr] aspect-square items-center justify-center">
+              <div className=" border border-neutral-300 dark:border-neutral-800 rounded-lg overflow-hidden grid grid-rows-[3fr_1fr] aspect-square items-center justify-center cursor-pointer">
                 <img
-                  src={`https://raw.githubusercontent.com/glauber2k2/${'Burguer'}/main/public/thumb.png`}
-                  className="object-cover w-full h-full"
+                  src={`https://raw.githubusercontent.com/glauber2k2/${repo.name}/main/public/thumb.png`}
+                  className="object-cover w-full h-full opacity-70 hover:opacity-90 transition-opacity duration-300"
                 />
-                <span className="text-2xl font-semibold">
-                  {repo.name}
-                  <p className="text-xs font-light">
-                    {repo.description && repo.description.substring(1)}
-                  </p>
-                </span>
+                <div className="text-xl font-semibold px-4">
+                  <h1>{repo.name}</h1>
+                  <div className="flex items-center gap-2">
+                    {repo.topics.map((topic: string) => (
+                      <span key={topic} className="text-xs">
+                        {iconTech[topic]}
+                      </span>
+                    ))}
+                  </div>
+                </div>
               </div>
             </CarouselItem>
           ))}

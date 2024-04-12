@@ -5,7 +5,8 @@
     "sidebar": {
         "about": "Sobre mim",
         "projects": "Meus projetos",
-        "tech": "Tecnologias"
+        "tech": "Tecnologias",
+        "contact": "Fale comigo"
     },
     "about": {
         "title": "Sobre mim",
@@ -24,5 +25,12 @@
     "projects": {
         "title": "Meus projetos",
         "note": "Observação: Esta listagem utiliza a própria API do GitHub, que é o local onde os códigos de todos os projetos que você está visualizando estão hospedados. Caso tenha ultrapassado o limite de requisições, por favor, aguarde alguns minutos, pois a API tem limites de requisições por endereço de IP."
+    },
+    "contact": {
+        "title": "Fale comigo",
+        "proIgTitle": "Instagram profissional",
+        "devglauberig": "Este é o meu perfil profissional no Instagram, onde atualmente compartilho conteúdo sobre vendas de sites e sistemas, além de oferecer dicas para novos desenvolvedores. Se você está interessado em fechar negócio comigo ou aprender mais sobre o mundo do desenvolvimento, este é o lugar ideal para você!",
+        "linkedin": "Este é o meu perfil profissional no LinkedIn, onde compartilho dicas para novos desenvolvedores e atualizações sobre meus projetos mais recentes. Se você procura orientações na área de desenvolvimento ou quer acompanhar de perto o que estou fazendo, vamos nos conectar!",
+        "mail": "Interessado em discutir um projeto ou contratar meus serviços? Entre em contato comigo através do e-mail e vamos transformar sua ideia em realidade!"
     }
 }

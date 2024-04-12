@@ -5,7 +5,8 @@
     "sidebar": {
         "about": "About me",
         "projects": "My projects",
-        "tech": "Technologies"
+        "tech": "Technologies",
+        "contact": "Contact me"
     },
     "about": {
         "title": "About me",
@@ -24,5 +25,13 @@
     "projects": {
         "title": "My projects",
         "note": "Note: This listing utilizes GitHub's own API, which is where the code for all the projects you are viewing is hosted. If you have exceeded the request limit, please wait a few minutes as the API has request limits per IP address."
+    },
+    "contact": {
+        "title": "Contact me",
+        "proIgTitle": "Professional Instagram",
+        "devglauberig": "This is my professional Instagram profile, where I currently share content about website and system sales, as well as provide tips for aspiring developers. If you're looking to do business with me or learn more about the dev field, this is the right place for you!",
+        "linkedin": "This is my professional LinkedIn profile, where I share tips for aspiring developers and updates on my latest projects. If you're seeking guidance in the development field or want to stay up-to-date with what I'm working on, let's connect!",
+        "mail": "Interested in discussing a project or hiring my services? Reach out to me via email and let's turn your idea into reality!"
+       
     }
 }
