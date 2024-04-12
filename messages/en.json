@@ -33,9 +33,13 @@
     },
     "contact": {
         "title": "Contact me",
-        "proIgTitle": "Professional Instagram",
+        "proIgTitle": "My Instagram",
         "devglauberig": "This is my professional Instagram profile, where I currently share content about website and system sales, as well as provide tips for aspiring developers. If you're looking to do business with me or learn more about the dev field, this is the right place for you!",
+        "wppTitle": "My whatsapp",
+        "wppText": "Interested in discussing a project or hiring my services? Feel free to reach out to me via WhatsApp, and let's turn your idea into reality!",
+        "linkedinTitle": "My LinkedIn",
         "linkedin": "This is my professional LinkedIn profile, where I share tips for aspiring developers and updates on my latest projects. If you're seeking guidance in the development field or want to stay up-to-date with what I'm working on, let's connect!",
+        "mailTitle":"My email",
         "mail": "Interested in discussing a project or hiring my services? Reach out to me via email and let's turn your idea into reality!"
        
     }

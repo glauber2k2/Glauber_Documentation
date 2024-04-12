@@ -26,12 +26,24 @@ export default function page() {
               href={'https://www.instagram.com/devglauber'}
               className="mt-4 hover:underline text-blue-400"
             >
-              @devglauber
+              Instagram
+            </Link>
+          </AccordionContent>
+        </AccordionItem>
+        <AccordionItem value="wpp">
+          <AccordionTrigger>{contact('wppTitle')}</AccordionTrigger>
+          <AccordionContent className="flex flex-col text-xs md:text-sm">
+            {contact('wppText')}
+            <Link
+              href={'https://www.instagram.com/devglauber'}
+              className="mt-4 hover:underline text-blue-400"
+            >
+              Whatsapp
             </Link>
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="linkedin">
-          <AccordionTrigger>LinkedIn</AccordionTrigger>
+          <AccordionTrigger>{contact('linkedinTitle')}</AccordionTrigger>
           <AccordionContent className="flex flex-col text-xs md:text-sm">
             {contact('linkedin')}
             <Link
@@ -43,7 +55,7 @@ export default function page() {
           </AccordionContent>
         </AccordionItem>
         <AccordionItem value="mail">
-          <AccordionTrigger>Email</AccordionTrigger>
+          <AccordionTrigger>{contact('mailTitle')}</AccordionTrigger>
           <AccordionContent className="flex flex-col text-xs md:text-sm">
             {contact('mail')}
             <p className="mt-4">devglaubermonteiro@gmail.com</p>
