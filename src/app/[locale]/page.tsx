@@ -8,9 +8,11 @@ export default function Home() {
   const home = useTranslations('home')
   return (
     <div className="flex flex-col items-center p-4 md:p-10 h-full justify-center">
-      <h1 className="text-6xl font-bold">{home('title')}</h1>
+      <h1 className="text-xl sm:text-3xl lg:text-6xl font-bold">
+        {home('title')}
+      </h1>
       <div>
-        <h2 className="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-1 text-xl text-white opacity-80">
+        <h2 className="text-xs sm:text-base lg:text-xl animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-1  text-white opacity-80">
           {home('subtitle')}
         </h2>
       </div>
