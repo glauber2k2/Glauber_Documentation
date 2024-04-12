@@ -25,6 +25,7 @@ export default function RootLayout({
   const messages = useMessages()
   return (
     <html lang={locale}>
+      <link rel="icon" href="/mylogo.png" />
       <body className={cn(inter.className, 'flex h-screen flex-col')}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
