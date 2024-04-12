@@ -40,7 +40,7 @@ export default function RootLayout({
               <ResponsiveMenu>
                 <Sidebar />
               </ResponsiveMenu>
-              {children}
+              <div className="p-4">{children}</div>
             </>
           ) : (
             <div className="grid grid-cols-[22rem_1fr] h-full">

@@ -8,29 +8,35 @@ const About: FunctionComponent<AboutProps> = () => {
 
   return (
     <div className="flex flex-col gap-8">
-      <h1 className="pb-4 border-b text-xl border-neutral-300 dark:border-neutral-800">
+      <h1 className="pb-4 border-b text-xl border-neutral-300 dark:border-neutral-800 font-medium">
         {about('title')}
       </h1>
 
       <div>
         <span className=" font-medium">🙋‍♂️{about('myname')}</span>
-        <article className="mt-4 text-sm text-justify">
+        <article className="mt-4 text-xs sm:text-sm text-justify">
           {about('presentation')}
         </article>
       </div>
 
       <div className="mt-4">
         <span className=" font-medium">{about('educationTitle')}</span>
-        <article className="mt-2 text-sm text-justify">
+        <article className="mt-2 text-xs sm:text-sm text-justify">
           {about('educationText')}
         </article>
       </div>
 
       <div className="mt-4">
         <span className=" font-medium">{about('worksTitle')}</span>
-        <li className="mt-2 text-sm text-justify">{about('freelancerText')}</li>
-        <li className="mt-2 text-sm text-justify">{about('btorText')}</li>
-        <li className="mt-2 text-sm text-justify">{about('timeAlign')}</li>
+        <li className="mt-2 text-xs sm:text-sm text-justify">
+          {about('freelancerText')}
+        </li>
+        <li className="mt-2 text-xs sm:text-sm text-justify">
+          {about('btorText')}
+        </li>
+        <li className="mt-2 text-xs sm:text-sm text-justify">
+          {about('timeAlign')}
+        </li>
       </div>
     </div>
   )
