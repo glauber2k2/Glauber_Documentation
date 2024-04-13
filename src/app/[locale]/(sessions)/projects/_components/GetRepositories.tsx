@@ -62,7 +62,7 @@ export default async function GetRepositories() {
               <div className=" border border-neutral-300 dark:border-neutral-800 rounded-lg overflow-hidden grid grid-rows-[3fr_1fr] aspect-square items-center justify-center cursor-pointer">
                 <img
                   src={`https://raw.githubusercontent.com/glauber2k2/${repo.name}/main/public/thumb.png`}
-                  className="object-cover w-full h-full opacity-70 hover:opacity-90 transition-opacity duration-300"
+                  className="object-cover w-full h-full dark:opacity-90 hover:opacity-90 transition-opacity duration-300"
                 />
                 <div className="font-semibold px-4 space-y-1">
                   <h1 className="text-sm sm:text-xl">{repo.name}</h1>

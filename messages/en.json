@@ -25,7 +25,8 @@
         "timeAlign": "January 2024 marked the beginning of my journey in developing a SAAS system for appointment management, named TimeAlign. This platform allows businesses to register, add their units and employees, and receive appointments from potential clients who utilize the platform. In this project, I took on the responsibility of handling the entire frontend, backend, and database of the application. I leveraged various market technologies such as ReactJs, Nodejs, Express, Typeorm, Stripe, and PostgreSQL. As of April 2024, the system is in its demo version, with an anticipated release in January 2025."
     },
     "techs": {
-        "title": "My technologies"
+        "title": "My technologies",
+        "note": "Note: This technology list represents all the technologies I have had the opportunity to utilize, along with my level of experience in each of them."
     },
     "projects": {
         "title": "My projects",

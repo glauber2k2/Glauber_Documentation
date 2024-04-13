@@ -25,7 +25,8 @@
         "timeAlign": "Em Janeiro de 2024, comecei a desenvolver um sistema SAAS para gestão de agendamentos, chamado TimeAlign. Neste sistema, as empresas podem se cadastrar, adicionar suas unidades e funcionários, e receber agendamentos de potenciais clientes que utilizam a plataforma. Neste projeto, assumi a responsabilidade por todo o frontend, backend e banco de dados da aplicação. Utilizei diversas tecnologias de mercado, como ReactJs, Nodejs, Express, Typeorm, Stripe e PostgreSQL. O sistema, atualmente em abril de 2024, encontra-se em sua versão demo, com previsão de lançamento para janeiro de 2025."
     },
     "techs": {
-        "title": "Minhas tecnologias"
+        "title": "Minhas tecnologias",
+        "note": "Observação: Esta lista de tecnologias representa todas as tecnologias nas quais tive a oportunidade de utilizar, juntamente com meu nível de experiência em cada uma delas."
     },
     "projects": {
         "title": "Meus projetos",

@@ -104,6 +104,9 @@ const Tech: FunctionComponent<TechProps> = () => {
           <Progress className="h-2" value={20} />
         </div>
       </div>
+      <article className="text-xs border border-neutral-300 dark:border-neutral-800 p-4 rounded-md text-justify">
+        {techs('note')}
+      </article>
     </div>
   )
 }
