@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang={locale}>
       <link rel="icon" href="/mylogo.png" />
-      <body className={cn(inter.className, 'flex h-screen flex-col')}>
+      <body className={cn(inter.className, 'flex h-dvh sm:h-screen flex-col')}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           <Header />
           {children}
