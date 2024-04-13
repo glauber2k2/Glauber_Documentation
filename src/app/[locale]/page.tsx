@@ -12,7 +12,7 @@ export default function Home() {
         {home('title')}
       </h1>
       <div>
-        <h2 className="text-xs sm:text-base lg:text-xl animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-1  text-white opacity-80">
+        <h2 className="text-xs sm:text-base lg:text-xl animate-typing overflow-hidden whitespace-nowrap border-r-4 dark:border-r-white border-r-black pr-1  opacity-80">
           {home('subtitle')}
         </h2>
       </div>
