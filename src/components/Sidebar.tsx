@@ -10,6 +10,10 @@ const Sidebar: FunctionComponent<SidebarProps> = () => {
 
   return (
     <div className="p-4 h-full border-r flex flex-col gap-1 border-neutral-300 dark:border-neutral-800">
+      <ActiveLink href="/projects">
+        <LuPresentation size={16} />
+        {t('projects')}
+      </ActiveLink>
       <ActiveLink href="/about">
         <LuUser2 size={16} />
         {t('about')}
@@ -17,10 +21,6 @@ const Sidebar: FunctionComponent<SidebarProps> = () => {
       <ActiveLink href="/tech">
         <LuCpu size={16} />
         {t('tech')}
-      </ActiveLink>
-      <ActiveLink href="/projects">
-        <LuPresentation size={16} />
-        {t('projects')}
       </ActiveLink>
       <span className="border-b border-neutral-300 dark:border-neutral-800 mt-auto mb-2" />
       <ActiveLink href="/contact">
