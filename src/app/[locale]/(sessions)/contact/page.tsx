@@ -35,7 +35,9 @@ export default function page() {
           <AccordionContent className="flex flex-col text-xs md:text-sm">
             {contact('wppText')}
             <Link
-              href={'https://www.instagram.com/devglauber'}
+              href={
+                'https://api.whatsapp.com/message/RS2XYE5ZIENTB1?autoload=1&app_absent=0'
+              }
               className="mt-4 hover:underline text-blue-400"
             >
               Whatsapp

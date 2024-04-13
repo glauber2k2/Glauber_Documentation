@@ -64,8 +64,8 @@ export default async function GetRepositories() {
                   src={`https://raw.githubusercontent.com/glauber2k2/${repo.name}/main/public/thumb.png`}
                   className="object-cover w-full h-full opacity-70 hover:opacity-90 transition-opacity duration-300"
                 />
-                <div className="text-xl font-semibold px-4 space-y-1">
-                  <h1>{repo.name}</h1>
+                <div className="font-semibold px-4 space-y-1">
+                  <h1 className="text-sm sm:text-xl">{repo.name}</h1>
                   <div className="flex items-center gap-2">
                     {repo.topics.map((topic: string) => (
                       <span key={topic} className="text-xs">
