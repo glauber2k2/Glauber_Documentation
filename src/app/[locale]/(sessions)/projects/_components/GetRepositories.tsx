@@ -16,6 +16,7 @@ import {
   SiTailwindcss,
   SiTypescript,
 } from 'react-icons/si'
+import Link from 'next/link'
 
 export default async function GetRepositories() {
   interface IconTech {
@@ -59,22 +60,24 @@ export default async function GetRepositories() {
               key={repo.id}
               className="md:basis-1/2 lg:basis-1/3 overflow-hidden"
             >
-              <div className=" border border-neutral-300 dark:border-neutral-800 rounded-lg overflow-hidden grid grid-rows-[3fr_1fr] aspect-square items-center justify-center cursor-pointer">
-                <img
-                  src={`https://raw.githubusercontent.com/glauber2k2/${repo.name}/main/public/thumb.png`}
-                  className="object-cover w-full h-full dark:opacity-90 hover:opacity-90 transition-opacity duration-300"
-                />
-                <div className="font-semibold px-4 space-y-1">
-                  <h1 className="text-sm sm:text-xl">{repo.name}</h1>
-                  <div className="flex items-center gap-2">
-                    {repo.topics.map((topic: string) => (
-                      <span key={topic} className="text-xs">
-                        {iconTech[topic]}
-                      </span>
-                    ))}
+              <Link href={repo.homepage}>
+                <div className=" border border-neutral-300 dark:border-neutral-800 rounded-lg overflow-hidden grid grid-rows-[3fr_1fr] aspect-square items-center justify-center cursor-pointer">
+                  <img
+                    src={`https://raw.githubusercontent.com/glauber2k2/${repo.name}/main/public/thumb.png`}
+                    className="object-cover w-full h-full dark:opacity-90 hover:opacity-90 transition-opacity duration-300"
+                  />
+                  <div className="font-semibold px-4 space-y-1">
+                    <h1 className="text-sm sm:text-xl">{repo.name}</h1>
+                    <div className="flex items-center gap-2">
+                      {repo.topics.map((topic: string) => (
+                        <span key={topic} className="text-xs">
+                          {iconTech[topic]}
+                        </span>
+                      ))}
+                    </div>
                   </div>
                 </div>
-              </div>
+              </Link>
             </CarouselItem>
           ))}
         </CarouselContent>
