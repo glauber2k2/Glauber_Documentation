@@ -29,7 +29,7 @@
     },
     "projects": {
         "title": "My projects",
-        "note": "Note: This listing utilizes GitHub's own API, which is where the code for all the projects you are viewing is hosted. If you have exceeded the request limit, please wait a few minutes as the API has request limits per IP address."
+        "note": "Note: This listing utilizes GitHub's own API, which is where the code for all the projects you are viewing is hosted. If you have exceeded the request limit, please wait a few minutes as the API has limits per IP address."
     },
     "contact": {
         "title": "Contact me",

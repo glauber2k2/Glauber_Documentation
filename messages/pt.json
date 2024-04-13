@@ -29,7 +29,7 @@
     },
     "projects": {
         "title": "Meus projetos",
-        "note": "Observação: Esta listagem utiliza a própria API do GitHub, que é o local onde os códigos de todos os projetos que você está visualizando estão hospedados. Caso tenha ultrapassado o limite de requisições, por favor, aguarde alguns minutos, pois a API tem limites de requisições por endereço de IP."
+        "note": "Observação: Esta listagem utiliza a própria API do GitHub, que é o local onde os códigos de todos os projetos que você está visualizando estão hospedados. Caso tenha ultrapassado o limite de requisições, por favor, aguarde alguns minutos, pois a API tem limites por endereço de IP."
     },
     "contact": {
         "title": "Fale comigo",
