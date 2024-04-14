@@ -14,7 +14,9 @@ const ResponsiveMenu: FunctionComponent<ResponsiveMenuProps> = ({
       <SheetTrigger className="m-6 w-fit">
         <LuMenu />
       </SheetTrigger>
-      <SheetContent side={'left'}>{children}</SheetContent>
+      <SheetContent side={'left'} className="pt-8">
+        {children}
+      </SheetContent>
     </Sheet>
   )
 }

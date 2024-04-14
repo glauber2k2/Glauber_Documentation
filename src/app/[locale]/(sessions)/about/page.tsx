@@ -31,18 +31,18 @@ const About: FunctionComponent<AboutProps> = () => {
       <div className="mt-4">
         <span className=" font-medium">{about('languagesTitle')}</span>
         <div className="space-y-4 mt-4">
-          <div>
+          <div className="font-medium">
             <span className="flex items-center gap-2">
               {about('portuguese')}
               <Badge>Nativo</Badge>
             </span>
             <Progress className="w-full md:w-1/3 h-2 mt-2" value={100} />
           </div>
-          <div>
+          <div className="font-medium">
             {about('english')}
             <Progress className="w-full md:w-1/3 h-2 mt-2" value={50} />
           </div>
-          <div>
+          <div className="font-medium">
             {about('spanish')}
             <Progress className="w-full md:w-1/3 h-2 mt-2" value={80} />
           </div>
