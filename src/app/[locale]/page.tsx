@@ -10,8 +10,11 @@ export default function Home() {
   return (
     <div className="flex flex-col items-center p-4 md:p-10 h-full justify-center">
       <IntlLink href={'/projects'}>
-        <Button variant={'secondary'} size={'sm'} className="mb-6">
-          <LuLayoutDashboard className="mr-4" />
+        <Button
+          variant={'secondary'}
+          className="mb-6 text-xs md:text-sm h-6 px-2 md:h-7 md:px-3"
+        >
+          <LuLayoutDashboard className="mr-2 md:mr-4" />
           {home('projects')}
           <LuArrowRight />
         </Button>
