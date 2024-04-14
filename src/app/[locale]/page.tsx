@@ -18,7 +18,7 @@ export default function Home() {
       </div>
 
       <span className="mt-10 gap-4 flex">
-        <IntlLink href={'/projects'}>
+        <IntlLink href={'/about'}>
           <Button>{home('cta')}</Button>
         </IntlLink>
         <Link href={'https://github.com/glauber2k2'}>
