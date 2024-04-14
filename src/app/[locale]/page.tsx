@@ -3,11 +3,19 @@ import { useTranslations } from 'next-intl'
 import { Link as IntlLink } from '../../../navigation'
 import { FaGithub } from 'react-icons/fa'
 import Link from 'next/link'
+import { LuArrowRight, LuLayoutDashboard } from 'react-icons/lu'
 
 export default function Home() {
   const home = useTranslations('home')
   return (
     <div className="flex flex-col items-center p-4 md:p-10 h-full justify-center">
+      <IntlLink href={'/projects'}>
+        <Button variant={'secondary'} size={'sm'} className="mb-6">
+          <LuLayoutDashboard className="mr-4" />
+          {home('projects')}
+          <LuArrowRight />
+        </Button>
+      </IntlLink>
       <h1 className="text-xl sm:text-3xl lg:text-6xl font-bold">
         {home('title')}
       </h1>

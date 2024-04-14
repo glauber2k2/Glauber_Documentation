@@ -5,7 +5,8 @@
     "home": {
         "title": "Opa, me chamo Glauber.",
         "subtitle": "Bem-vindo à documentação da minha carreira.",
-        "cta": "Vamos iniciar"
+        "cta": "Vamos iniciar",
+        "projects": "Explore meus projetos"
     },
     "sidebar": {
         "about": "Sobre mim",
