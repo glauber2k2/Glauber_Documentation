@@ -10,13 +10,13 @@ const Sidebar: FunctionComponent<SidebarProps> = () => {
 
   return (
     <div className="p-4 h-full border-r flex flex-col gap-1 border-neutral-300 dark:border-neutral-800">
-      <ActiveLink href="/projects">
-        <LuPresentation size={16} />
-        {t('projects')}
-      </ActiveLink>
       <ActiveLink href="/about">
         <LuUser2 size={16} />
         {t('about')}
+      </ActiveLink>
+      <ActiveLink href="/projects">
+        <LuPresentation size={16} />
+        {t('projects')}
       </ActiveLink>
       <ActiveLink href="/tech">
         <LuCpu size={16} />
