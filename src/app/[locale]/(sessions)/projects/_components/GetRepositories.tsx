@@ -70,7 +70,7 @@ export default async function GetRepositories() {
                     <h1 className="text-sm sm:text-xl">{repo.name}</h1>
                     <div className="flex items-center gap-2">
                       {repo.topics.map((topic: string) => (
-                        <span key={topic} className="text-xs">
+                        <span key={topic} className="text-xs" title={topic}>
                           {iconTech[topic]}
                         </span>
                       ))}
