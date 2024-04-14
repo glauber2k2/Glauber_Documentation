@@ -67,7 +67,7 @@ export default async function GetRepositories() {
                     className="object-cover w-full h-full dark:opacity-90 hover:opacity-90 transition-opacity duration-300"
                   />
                   <div className="font-semibold px-4 space-y-1">
-                    <h1 className="text-sm sm:text-xl">{repo.name}</h1>
+                    <h1 className="text-sm ">{repo.name}</h1>
                     <div className="flex items-center gap-2">
                       {repo.topics.map((topic: string) => (
                         <span key={topic} className="text-xs" title={topic}>
