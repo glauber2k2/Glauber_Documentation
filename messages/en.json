@@ -11,6 +11,7 @@
     "sidebar": {
         "about": "About me",
         "projects": "My projects",
+        "career": "My career",
         "tech": "Technologies",
         "contact": "Contact me"
     },
@@ -20,6 +21,14 @@
         "presentation": "I am a Brazilian native from João Pessoa, Paraíba, with a background in Computer Science, earned from UNIPE between 2020 and 2024. Over the course of 4 years, I have acquired significant experience in programming. One of my strengths is my determination to achieve goals. I have a profound passion for technology and am committed to continuous learning and growth",
         "educationTitle": "Academic education",
         "educationText": "In the second semester of 2020, I started my Computer Science degree at UNIPÊ, which is part of the Cruzeiro do Sul University, located in João Pessoa, Paraíba, Brazil. In 2021, I became very interested in the field of programming. In early 2023, I applied to participate in internships at UNIPÊ focusing on software development, thus having the opportunity to intern at Conte Cornetet Architecture and Consulting, where I was able to delve even deeper into the world of programming. One of my major accomplishments at Conte involved developing a real-time audio transcription system to assist with the company's reports and inspections. Additionally, I played a fundamental and active role in leading the frontend creation of the shift management system for the medicine course at my university. Shortly after, around August 2023, I began working on my thesis, which focused on Artificial Intelligence, specifically prompt engineering and making this new technology more accessible to everyone. Therefore, we worked on and refined the ROORE system, which is a prompt platform where users can find various pre-made prompts to assist in their instructions to all types of artificial intelligence, thus making life easier for many professionals through the use of this technology. As a result, I completed my degree in the second semester of 2024.",
+        "languagesTitle": "My languages",
+        "english": "English",
+        "spanish": "Spanish",
+        "portuguese": "Portuguese"
+      
+    },
+    "career": {
+        "title": "My career",
         "worksTitle": "Work experience",
         "freelancerText": "After acquiring sufficient knowledge in the field of programming, I also had the opportunity to undertake various freelance projects. Some of them include: a webpage for showcasing architecture projects for Trinity company, a presentation and registration page for new members of a shooting club in my city, and frontend work for an enterprise management system. Additionally, I actively participated in the development of a platform for managing companies and assets, where I worked full-stack using technologies such as ReactJS, NodeJS, NextJS, Express, TypeORM, and a PostgreSQL database. This allowed me to expand my skills in a full-stack environment, enabling me to develop both the visual aspects and all the business logic and data management of the system.",
         "btorText": "In September 2023, I joined Btor Solucoes Computacionais as a front-end developer. I started as an intern and was later promoted to junior developer. At Btor, I had the opportunity to work with technologies that were new to me, allowing me to expand my overall programming knowledge. I worked with Flutter, Angular, and React, and also gained some exposure to C#. My time at Btor concluded in March 2024.",

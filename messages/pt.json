@@ -11,6 +11,7 @@
     "sidebar": {
         "about": "Sobre mim",
         "projects": "Meus projetos",
+        "career": "Minha carreira",
         "tech": "Tecnologias",
         "contact": "Fale comigo"
     },
@@ -20,6 +21,14 @@
         "presentation": "Sou natural de João Pessoa, Paraíba, Brasil, com formação em Ciência da Computação pela UNIPE, concluída entre 2020 e 2024. Ao longo de 4 anos, adquiri significativa experiência em programação. Minha determinação em alcançar objetivos é uma das minhas principais características. Tenho uma profunda paixão por tecnologia e estou comprometido com aprendizado e crescimento contínuos.",
         "educationTitle": "Formação acadêmica",
         "educationText": "No segundo semestre de 2020, iniciei o curso de Ciências da Computação na UNIPÊ, que faz parte da Universidade Cruzeiro do Sul, localizada em João Pessoa, Paraíba, Brasil. No ano de 2021, comecei a me interessar muito pela área de programação. No início de 2023, inscrevi-me para participar de estágios na UNIPÊ com desenvolvimento de software, tendo assim a oportunidade de estagiar na Conte Cornetet Arquitetura e Consultoria, onde pude me aprofundar ainda mais no mundo da programação. Um dos meus principais feitos na Conte envolveu o desenvolvimento de um sistema de transcrição de áudio em tempo real para auxiliar nos relatórios e inspeções da empresa. Além disso, desempenhei um papel fundamental e ativo na liderança da criação do frontend do sistema de gestão de plantões do curso de medicina da minha universidade. Logo após, por volta de agosto de 2023, comecei a trabalhar no desenvolvimento do meu TCC que se concentrou na área de Inteligência Artificial, com foco em engenharia de prompt e como tornar essa nova tecnologia mais acessível a todas as pessoas. Sendo assim, trabalhamos e aprimoramos o sistema ROORE, que é uma plataforma de prompts, onde o usuário pode encontrar diversos prompts pré-prontos para auxiliar em suas instruções a todo tipo de inteligência artificial, podendo assim facilitar a vida de muitos profissionais com o uso dessa tecnologia. Com isso, terminei meu curso no segundo semestre do ano de 2024.",
+        "languagesTitle": "Meus idiomas",
+        "english": "Inglês",
+        "spanish": "Espanhol",
+        "portuguese": "Português"
+      
+    },
+    "career": {
+        "title": "Minha carreira",
         "worksTitle": "Experiência profissional",
         "freelancerText": "Após adquirir conhecimento suficiente na área de programação, também tive a oportunidade de realizar diversos trabalhos freelancers. Alguns deles incluem: uma página para exibir projetos de arquitetura para a empresa Trinity, uma página de apresentação e inscrição de novos membros para um clube de tiro em minha cidade, e trabalho de front-end para um sistema de gestão empresarial. Além disso, participei ativamente do desenvolvimento de uma plataforma para gerenciamento de empresas e ativos, onde trabalhei full-stack utilizando tecnologias como ReactJS, NodeJS, NextJS, Express, TypeORM e um banco de dados PostgreSQL. Isso me permitiu expandir minhas habilidades em um ambiente full-stack, possibilitando o desenvolvimento tanto dos aspectos visuais quanto de toda a lógica de negócios e gerenciamento de dados do sistema.",
         "btorText": "Em setembro de 2023, ingressei na empresa Btor Solucoes Computacionais como desenvolvedor front-end. Comecei como estagiário e fui promovido a desenvolvedor júnior posteriormente. Na Btor, tive a oportunidade de trabalhar com tecnologias que eu não conhecia previamente, o que me permitiu expandir meu conhecimento em programação de forma geral. Trabalhei com Flutter, Angular e React, e também adquiri um pouco de conhecimento sobre C#. Encerrei minha contribuição na empresa em março de 2024.",

@@ -1,7 +1,13 @@
 import { FunctionComponent } from 'react'
 import { useTranslations } from 'next-intl'
 import ActiveLink from './ActiveLink'
-import { LuCpu, LuMessageCircle, LuPresentation, LuUser2 } from 'react-icons/lu'
+import {
+  LuCpu,
+  LuLayoutList,
+  LuMessageCircle,
+  LuPresentation,
+  LuUser2,
+} from 'react-icons/lu'
 
 interface SidebarProps {}
 
@@ -17,6 +23,10 @@ const Sidebar: FunctionComponent<SidebarProps> = () => {
       <ActiveLink href="/projects">
         <LuPresentation size={16} />
         {t('projects')}
+      </ActiveLink>
+      <ActiveLink href="/career">
+        <LuLayoutList size={16} />
+        {t('career')}
       </ActiveLink>
       <ActiveLink href="/tech">
         <LuCpu size={16} />
