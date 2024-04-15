@@ -14,8 +14,6 @@ const ActiveLink: FunctionComponent<ActiveLinkProps> = ({ children, href }) => {
   const pathname = usePathname()
   const isActive = pathname === href.toString()
 
-  console.log(pathname)
-
   return (
     <Link href={href} className="">
       <Button
