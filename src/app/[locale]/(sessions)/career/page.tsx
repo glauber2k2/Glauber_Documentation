@@ -8,17 +8,32 @@ export default function page() {
       <h1 className="pb-4 border-b text-xl border-neutral-300 dark:border-neutral-800 font-medium">
         {career('title')}
       </h1>
-      <div className="">
+      <div className="flex flex-col gap-4">
         <span className=" font-medium">{career('worksTitle')}</span>
-        <li className="mt-2 text-xs sm:text-sm text-justify">
-          {career('freelancerText')}
-        </li>
-        <li className="mt-2 text-xs sm:text-sm text-justify">
-          {career('btorText')}
-        </li>
-        <li className="mt-2 text-xs sm:text-sm text-justify">
-          {career('timeAlign')}
-        </li>
+        <div>
+          <h2>2022</h2>
+          <li className="mt-2 text-xs sm:text-sm text-justify">
+            {career('freelancerText')}
+          </li>
+        </div>
+        <div>
+          <h2>2023</h2>
+          <li className="mt-2 text-xs sm:text-sm text-justify">
+            {career('conteText')}
+          </li>
+          <li className="mt-2 text-xs sm:text-sm text-justify">
+            {career('gesplantaoText')}
+          </li>
+          <li className="mt-2 text-xs sm:text-sm text-justify">
+            {career('btorText')}
+          </li>
+        </div>
+        <div>
+          <h2>2024</h2>
+          <li className="mt-2 text-xs sm:text-sm text-justify">
+            {career('timeAlign')}
+          </li>
+        </div>
       </div>
     </div>
   )
