@@ -60,7 +60,7 @@ export default async function GetRepositories() {
               key={repo.id}
               className="md:basis-1/2 lg:basis-1/3 overflow-hidden"
             >
-              <Link href={repo.homepage}>
+              <Link href={repo.homepage} target="_blank">
                 <div className=" border border-neutral-300 dark:border-neutral-800 rounded-lg overflow-hidden grid grid-rows-[3fr_1fr] aspect-square items-center justify-center cursor-pointer">
                   <img
                     src={`https://raw.githubusercontent.com/glauber2k2/${repo.name}/main/public/thumb.png`}
