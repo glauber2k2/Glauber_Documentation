@@ -2,6 +2,7 @@ import { Badge } from '@/components/ui/badge'
 import { Progress } from '@/components/ui/progress'
 import { useTranslations } from 'next-intl'
 import { FunctionComponent } from 'react'
+import { LuCalendar } from 'react-icons/lu'
 
 interface AboutProps {}
 
@@ -21,9 +22,20 @@ const About: FunctionComponent<AboutProps> = () => {
         </article>
       </div>
 
-      <div className="mt-4">
+      <div className="mt-4 space-y-4">
         <span className=" font-medium">{about('educationTitle')}</span>
-        <article className="mt-2 text-xs sm:text-sm text-justify">
+        <div className="flex flex-col pl-2 border-l-4">
+          <h3 className="font-medium text-sm">Computer Science</h3>
+          <small className=" text-xs">
+            UNIPÊ - Centro Universitário de João Pessoa
+          </small>
+          <small className="mt-2 flex items-center gap-2">
+            <LuCalendar />
+            2020 - 2024
+          </small>
+        </div>
+
+        <article className="text-xs sm:text-sm text-justify">
           {about('educationText')}
         </article>
       </div>

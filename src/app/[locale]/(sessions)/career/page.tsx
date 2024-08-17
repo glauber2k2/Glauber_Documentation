@@ -11,13 +11,13 @@ export default function page() {
       <div className="flex flex-col gap-4">
         <span className=" font-medium">{career('worksTitle')}</span>
         <div>
-          <h2 className="font-medium text-sm">2022</h2>
+          <h2 className="font-medium text-base border-l-4 pl-2">2022</h2>
           <li className="mt-2 text-xs sm:text-sm text-justify">
             {career('freelancerText')}
           </li>
         </div>
         <div>
-          <h2 className="font-medium text-sm">2023</h2>
+          <h2 className="font-medium text-base border-l-4 pl-2">2023</h2>
           <li className="mt-2 text-xs sm:text-sm text-justify">
             {career('conteText')}
           </li>
@@ -29,7 +29,7 @@ export default function page() {
           </li>
         </div>
         <div>
-          <h2 className="font-medium text-sm">2024</h2>
+          <h2 className="font-medium text-base border-l-4 pl-2">2024</h2>
           <li className="mt-2 text-xs sm:text-sm text-justify">
             {career('timeAlign')}
           </li>

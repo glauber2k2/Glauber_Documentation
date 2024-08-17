@@ -21,7 +21,7 @@ const Tech: FunctionComponent<TechProps> = () => {
             />
             Next.js
           </span>
-          <Progress className="h-2" value={90} />
+          <Progress className="h-2" value={100} />
         </div>
         <div className="p-4 md:p-10 border rounded-lg border-neutral-300 dark:border-neutral-800 space-y-8 font-medium">
           <span className="flex items-center gap-2 text-sm md:text-xl">
@@ -31,7 +31,7 @@ const Tech: FunctionComponent<TechProps> = () => {
             />
             React.js
           </span>
-          <Progress className="h-2" value={90} />
+          <Progress className="h-2" value={95} />
         </div>
         <div className="p-4 md:p-10 border rounded-lg border-neutral-300 dark:border-neutral-800 space-y-8 font-medium">
           <span className="flex items-center gap-2 text-sm md:text-xl">
@@ -41,7 +41,7 @@ const Tech: FunctionComponent<TechProps> = () => {
             />
             Tailwind
           </span>
-          <Progress className="h-2" value={100} />
+          <Progress className="h-2" value={95} />
         </div>
         <div className="p-4 md:p-10 border rounded-lg border-neutral-300 dark:border-neutral-800 space-y-8 font-medium">
           <span className="flex items-center gap-2 text-sm md:text-xl">
@@ -81,7 +81,7 @@ const Tech: FunctionComponent<TechProps> = () => {
             />
             Angular
           </span>
-          <Progress className="h-2" value={40} />
+          <Progress className="h-2" value={30} />
         </div>
         <div className="p-4 md:p-10 border rounded-lg border-neutral-300 dark:border-neutral-800 space-y-8 font-medium">
           <span className="flex items-center gap-2 text-sm md:text-xl">
@@ -91,7 +91,7 @@ const Tech: FunctionComponent<TechProps> = () => {
             />
             React Native
           </span>
-          <Progress className="h-2" value={20} />
+          <Progress className="h-2" value={15} />
         </div>
         <div className="p-4 md:p-10 border rounded-lg border-neutral-300 dark:border-neutral-800 space-y-8 font-medium">
           <span className="flex items-center gap-2 text-sm md:text-xl">
@@ -101,7 +101,7 @@ const Tech: FunctionComponent<TechProps> = () => {
             />
             Laravel
           </span>
-          <Progress className="h-2" value={20} />
+          <Progress className="h-2" value={15} />
         </div>
       </div>
       <article className="text-xs border border-neutral-300 dark:border-neutral-800 p-4 rounded-md text-justify">
