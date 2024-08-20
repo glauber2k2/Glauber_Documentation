@@ -13,7 +13,8 @@
         "projects": "My projects",
         "career": "My career",
         "tech": "Technologies",
-        "contact": "Contact me"
+        "contact": "Contact me",
+        "cv": "Digital resume"
     },
     "about": {
         "title": "About me",
@@ -27,7 +28,6 @@
         "english": "English",
         "spanish": "Spanish",
         "portuguese": "Portuguese"
-      
     },
     "career": {
         "title": "My career",
@@ -37,7 +37,7 @@
         "gesplantaoText": "Shortly after, I received an invitation to participate in another internship project simultaneously. This project was for the development of a shift management system for the medicine course at UNIPE, part of Cruzeiro do Sul University. In this system, I was responsible for dividing shift teams by subject, location, and allowing students to clock in using geolocation while at the workplace. In this project, I actively participated in leading the front-end team. The front-end technologies used in this project were React.js with Next.js.",
         "btorText": "In September 2023, I joined Btor Solucoes Computacionais as a front-end developer. I started as an intern and was later promoted to junior developer. At Btor, I had the opportunity to work with technologies that were new to me, allowing me to expand my overall programming knowledge. I worked with Flutter, Angular, and React, and also gained some exposure to C#. My time at Btor concluded in March 2024.",
         "cotechText": "I also worked as a freelance front-end developer for an enterprise management system, utilizing current market technologies such as React.js with the Next.js framework, styling with Tailwind CSS, and employing request methods like OData.",
-        "EnoqueProjectText": "Furthermore, I actively participated in the development of a platform for enterprise and asset management, where I worked full-stack utilizing technologies such as ReactJS, NodeJS, NextJS, Express, TypeORM, and a PostgreSQL database. This allowed me to expand my skills in a full-stack environment, enabling the development of both visual aspects and all business logic and data management of the system.", 
+        "EnoqueProjectText": "Furthermore, I actively participated in the development of a platform for enterprise and asset management, where I worked full-stack utilizing technologies such as ReactJS, NodeJS, NextJS, Express, TypeORM, and a PostgreSQL database. This allowed me to expand my skills in a full-stack environment, enabling the development of both visual aspects and all business logic and data management of the system.",
         "timeAlign": "January 2024 marked the beginning of my journey in developing a SAAS system for appointment management, named TimeAlign. This platform allows businesses to register, add their units and employees, and receive appointments from potential clients who utilize the platform. In this project, I took on the responsibility of handling the entire frontend, backend, and database of the application. I leveraged various market technologies such as ReactJs, Nodejs, Express, Typeorm, Stripe, and PostgreSQL. As of April 2024, the system is in its demo version, with an anticipated release in January 2025."
     },
     "techs": {
@@ -52,12 +52,38 @@
         "title": "Contact me",
         "proIgTitle": "My Instagram",
         "devglauberig": "This is my professional Instagram profile, where I currently share content about website and system sales, as well as provide tips for aspiring developers. If you're looking to do business with me or learn more about the dev field, this is the right place for you!",
-        "wppTitle": "My whatsapp",
+        "wppTitle": "My Whatsapp",
         "wppText": "Interested in discussing a project or hiring my services? Feel free to reach out to me via WhatsApp, and let's turn your idea into reality!",
         "linkedinTitle": "My LinkedIn",
         "linkedin": "This is my professional LinkedIn profile, where I share tips for aspiring developers and updates on my latest projects. If you're seeking guidance in the development field or want to stay up-to-date with what I'm working on, let's connect!",
-        "mailTitle":"My email",
+        "mailTitle": "My email",
         "mail": "Interested in discussing a project or hiring my services? Reach out to me via email and let's turn your idea into reality!"
-       
+    },
+    "curriculum": {
+        "title": "Front-end Developer",
+        "educationTitle": "Education",
+        "languagesTitle": "Languages",
+        "professionalTitle": "Experiences",
+        "objective": "Seeking a position as a Junior Front-end Developer.",
+        "education": "Bachelor’s Degree in Computer Science - UNIPÊ University Center",
+        "portuguese": "Portuguese - Native",
+        "spanish": "Spanish - Advanced",
+        "english": "English - Intermediate",
+        "btorRole": "Front-end and Mobile Developer",
+        "btorPeriod": "Sep 2023 - Mar 2024",
+        "btorCompany": "Btor Solutions",
+        "btorDetails1": "Developed screens and interfaces in AngularJs.",
+        "btorDetails2": "Developed features in the Btor Streamline app with Flutter.",
+        "btorDetails3": "Created a resume capture section with AntDesign and NextJs.",
+        "conteRole": "Front-end Developer",
+        "contePeriod": "Mar 2023 - Aug 2023",
+        "conteCompany": "Conte Cornetet Architecture and Consulting LTDA",
+        "conteDetails1": "Developed screens for a construction inspection application.",
+        "conteDetails2": "Audio-to-text transcription system.",
+        "ubtechRole": "Front-end Developer",
+        "ubtechPeriod": "Mar 2023 - Aug 2023",
+        "ubtechCompany": "UBTech Office/Unipê Software Factory",
+        "ubtechDetails1": "Developed screens for a medical shift management application.",
+        "generatePdf": "Generate"
     }
 }

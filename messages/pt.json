@@ -13,7 +13,8 @@
         "projects": "Meus projetos",
         "career": "Minha carreira",
         "tech": "Tecnologias",
-        "contact": "Fale comigo"
+        "contact": "Fale comigo",
+        "cv": "Currículo digital"
     },
     "about": {
         "title": "Sobre mim",
@@ -27,7 +28,6 @@
         "english": "Inglês",
         "spanish": "Espanhol",
         "portuguese": "Português"
-      
     },
     "career": {
         "title": "Minha carreira",
@@ -52,11 +52,38 @@
         "title": "Fale comigo",
         "proIgTitle": "Meu Instagram",
         "devglauberig": "Este é o meu perfil profissional no Instagram, onde atualmente compartilho conteúdo sobre vendas de sites e sistemas, além de oferecer dicas para novos desenvolvedores. Se você está interessado em fechar negócio comigo ou aprender mais sobre o mundo do desenvolvimento, este é o lugar ideal para você!",
-        "wppTitle":"Meu Whatsapp",
+        "wppTitle": "Meu Whatsapp",
         "wppText": "Interessado em discutir um projeto ou contratar meus serviços? Entre em contato comigo pelo WhatsApp e vamos transformar sua ideia em realidade!",
         "linkedinTitle": "Meu LinkedIn",
         "linkedin": "Este é o meu perfil profissional no LinkedIn, onde compartilho dicas para novos desenvolvedores e atualizações sobre meus projetos mais recentes. Se você procura orientações na área de desenvolvimento ou quer acompanhar de perto o que estou fazendo, vamos nos conectar!",
         "mailTitle": "Meu email",
         "mail": "Interessado em discutir um projeto ou contratar meus serviços? Entre em contato comigo através do e-mail e vamos transformar sua ideia em realidade!"
+    },
+    "curriculum": {
+        "title": "Desenvolvedor Front-end",
+        "educationTitle": "Formação acadêmica",
+        "languagesTitle": "Idiomas",
+        "professionalTitle": "Experiências",
+        "objective": "Buscando atuar como desenvolvedor Front-end Júnior.",
+        "education": "Bacharelado em Ciência da Computação - UNIPÊ Centro Universitário",
+        "portuguese": "Português - Nativo",
+        "spanish": "Espanhol - Avançado",
+        "english": "Inglês - Intermediário",
+        "btorRole": "Front-end e Mobile",
+        "btorPeriod": "Set 2023 - Mar 2024",
+        "btorCompany": "Btor Soluções Computacionais",
+        "btorDetails1": "Desenvolvimento de telas e interfaces em AngularJs.",
+        "btorDetails2": "Desenvolvimento de funcionalidades no app Btor Streamline com Flutter.",
+        "btorDetails3": "Criação de uma sessão de captura de currículos com AntDesign e NextJs.",
+        "conteRole": "Front-end",
+        "contePeriod": "Mar 2023 - Ago 2023",
+        "conteCompany": "Conte Cornetet Arquitetura e Consultoria LTDA",
+        "conteDetails1": "Desenvolvimento de telas para uma aplicação de fiscalização de obras.",
+        "conteDetails2": "Sistema de transcrição de áudio para texto.",
+        "ubtechRole": "Front-end",
+        "ubtechPeriod": "Mar 2023 - Ago 2023",
+        "ubtechCompany": "Fábrica de Software UBTech Office/Unipê",
+        "ubtechDetails1": "Desenvolvimento de telas para aplicação de gestão de plantões médicos.",
+        "generatePdf": "Gerar"
     }
 }

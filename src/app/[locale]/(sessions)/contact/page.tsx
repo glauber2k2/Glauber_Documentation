@@ -23,7 +23,7 @@ export default function page() {
           <AccordionContent className="flex flex-col text-xs md:text-sm">
             {contact('devglauberig')}
             <Link
-              href={'https://www.instagram.com/devglauber'}
+              href={'https://www.instagram.com/glauberai'}
               className="mt-4 hover:underline text-blue-400"
             >
               Instagram
@@ -60,7 +60,7 @@ export default function page() {
           <AccordionTrigger>{contact('mailTitle')}</AccordionTrigger>
           <AccordionContent className="flex flex-col text-xs md:text-sm">
             {contact('mail')}
-            <p className="mt-4">devglaubermonteiro@gmail.com</p>
+            <p className="mt-4">glaubermonteirodev@gmail.com</p>
           </AccordionContent>
         </AccordionItem>
       </Accordion>

@@ -8,6 +8,7 @@ import {
   LuPresentation,
   LuUser2,
 } from 'react-icons/lu'
+import { GrDocumentUser } from 'react-icons/gr'
 
 interface SidebarProps {}
 
@@ -31,6 +32,11 @@ const Sidebar: FunctionComponent<SidebarProps> = () => {
       <ActiveLink href="/tech">
         <LuCpu size={16} />
         {t('tech')}
+      </ActiveLink>
+      <ActiveLink href="/cv">
+        <GrDocumentUser size={16} />
+
+        {t('cv')}
       </ActiveLink>
       <span className="border-b border-neutral-300 dark:border-neutral-800 mt-auto mb-2" />
       <ActiveLink href="/contact">
