@@ -90,7 +90,6 @@ export default function Page() {
           <h3 className="text-sm md:text-lg mb-4 font-medium">
             {curriculum('educationTitle')}
           </h3>
-          <span>2022</span>
           <p>{resumeData.education}</p>
         </div>
 
