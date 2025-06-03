@@ -36,7 +36,7 @@ const About: FunctionComponent<AboutProps> = () => {
         </div>
         <div className="flex flex-col pl-2 border-l-4">
           <h3 className="font-medium text-sm">
-            Pós Desenvolvimento Web Full-stack
+            Desenvolvimento Web Full-stack
           </h3>
           <small className=" text-xs">
             UNIPÊ - Centro Universitário de João Pessoa
