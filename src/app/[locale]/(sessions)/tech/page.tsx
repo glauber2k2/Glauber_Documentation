@@ -1,16 +1,15 @@
-import { FunctionComponent } from 'react'
-import { useTranslations } from 'next-intl'
-import { Progress } from '@/components/ui/progress'
+import { FunctionComponent } from "react";
+import { useTranslations } from "next-intl";
 
 interface TechProps {}
 
 const Tech: FunctionComponent<TechProps> = () => {
-  const techs = useTranslations('techs')
+  const techs = useTranslations("techs");
 
   return (
     <div className="flex flex-col gap-8">
       <h1 className="pb-4 border-b text-xl border-neutral-300 dark:border-neutral-800 font-medium">
-        {techs('title')}
+        {techs("title")}
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
         <div className="p-4 md:p-10 border rounded-lg border-neutral-300 dark:border-neutral-800 space-y-8 font-medium">
@@ -21,7 +20,6 @@ const Tech: FunctionComponent<TechProps> = () => {
             />
             Next.js
           </span>
-          <Progress className="h-2" value={100} />
         </div>
         <div className="p-4 md:p-10 border rounded-lg border-neutral-300 dark:border-neutral-800 space-y-8 font-medium">
           <span className="flex items-center gap-2 text-sm md:text-xl">
@@ -31,7 +29,6 @@ const Tech: FunctionComponent<TechProps> = () => {
             />
             React.js
           </span>
-          <Progress className="h-2" value={95} />
         </div>
         <div className="p-4 md:p-10 border rounded-lg border-neutral-300 dark:border-neutral-800 space-y-8 font-medium">
           <span className="flex items-center gap-2 text-sm md:text-xl">
@@ -41,7 +38,6 @@ const Tech: FunctionComponent<TechProps> = () => {
             />
             Tailwind
           </span>
-          <Progress className="h-2" value={95} />
         </div>
         <div className="p-4 md:p-10 border rounded-lg border-neutral-300 dark:border-neutral-800 space-y-8 font-medium">
           <span className="flex items-center gap-2 text-sm md:text-xl">
@@ -51,7 +47,6 @@ const Tech: FunctionComponent<TechProps> = () => {
             />
             Node.js
           </span>
-          <Progress className="h-2" value={60} />
         </div>
         <div className="p-4 md:p-10 border rounded-lg border-neutral-300 dark:border-neutral-800 space-y-8 font-medium">
           <span className="flex items-center gap-2 text-sm md:text-xl">
@@ -61,7 +56,6 @@ const Tech: FunctionComponent<TechProps> = () => {
             />
             Express
           </span>
-          <Progress className="h-2" value={40} />
         </div>
         <div className="p-4 md:p-10 border rounded-lg border-neutral-300 dark:border-neutral-800 space-y-8 font-medium">
           <span className="flex items-center gap-2 text-sm md:text-xl">
@@ -71,7 +65,6 @@ const Tech: FunctionComponent<TechProps> = () => {
             />
             Flutter
           </span>
-          <Progress className="h-2" value={50} />
         </div>
         <div className="p-4 md:p-10 border rounded-lg border-neutral-300 dark:border-neutral-800 space-y-8 font-medium">
           <span className="flex items-center gap-2 text-sm md:text-xl">
@@ -81,7 +74,6 @@ const Tech: FunctionComponent<TechProps> = () => {
             />
             Angular
           </span>
-          <Progress className="h-2" value={30} />
         </div>
         <div className="p-4 md:p-10 border rounded-lg border-neutral-300 dark:border-neutral-800 space-y-8 font-medium">
           <span className="flex items-center gap-2 text-sm md:text-xl">
@@ -91,24 +83,13 @@ const Tech: FunctionComponent<TechProps> = () => {
             />
             React Native
           </span>
-          <Progress className="h-2" value={15} />
-        </div>
-        <div className="p-4 md:p-10 border rounded-lg border-neutral-300 dark:border-neutral-800 space-y-8 font-medium">
-          <span className="flex items-center gap-2 text-sm md:text-xl">
-            <img
-              src="/laravelicon.svg"
-              className="w-6 h-6 md:w-10 md:h-10 dark:invert"
-            />
-            Laravel
-          </span>
-          <Progress className="h-2" value={15} />
         </div>
       </div>
       <article className="text-xs border border-neutral-300 dark:border-neutral-800 p-4 rounded-md text-justify">
-        {techs('note')}
+        {techs("note")}
       </article>
     </div>
-  )
-}
+  );
+};
 
-export default Tech
+export default Tech;
